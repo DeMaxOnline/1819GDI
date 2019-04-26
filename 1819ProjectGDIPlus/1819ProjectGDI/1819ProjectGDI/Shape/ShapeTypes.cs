@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _1819ProjectGDI.Shape
 {
-    public enum Shapes
+    public enum ShapeTypes
     {
         Rectangle,
         square,
