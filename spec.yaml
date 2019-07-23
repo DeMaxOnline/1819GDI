@@ -17,8 +17,8 @@ basePath: /v2
 schemes:
   - http
 
-paths: !inc/dir [ 'paths' ]
+paths: !!inc/dir [ 'paths' ]
 
-securityDefinitions: !inc/file security.yaml
+securityDefinitions: !!inc/file security.yaml
 
-definitions: !inc/dir [ 'definitions', { recursive: false, allowEmpty: false }]
+definitions: !!inc/dir [ 'definitions', { recursive: false, allowEmpty: false }]
