@@ -1,5 +1,4 @@
 sensors:
   0x00: 
     logic: !!inc/file sound-level-sensor.yaml
-    design: !!inc/file sound-level-sensor-design.yaml
   
